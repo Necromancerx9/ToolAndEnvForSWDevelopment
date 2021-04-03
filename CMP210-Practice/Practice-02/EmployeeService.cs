@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Nguyen Hoang Ky_17DTHQA1
+using System;
 
 namespace Practice_02
 {
@@ -28,6 +29,8 @@ namespace Practice_02
                     factor = 2;
                     break;
             }
+            
+            // TODO: if employee is Expert, set factor = 3
 
             var salary = BASIC_SALARY * years * factor;
 
